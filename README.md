@@ -2,8 +2,6 @@
   <img src="./touxiang.png" alt="tvlogo"  width="120" height="120"/>
 </div>
 
-<p>
-  <br>
 # TVLogo 台标管理系统 - 项目简介与使用指南
 
 > 提供直播台标搜索查询、创建自定义台标的项目，适配各种直播壳和 JSON 接口，以及 iptv-api 等直播采集项目
@@ -34,7 +32,7 @@ TVLogo 台标管理系统是一款 **轻量级、可视化** 的台标文件管�
 
 ### 1. 环境要求
 - 浏览器：支持 Chrome/Firefox/Safari/Edge 等现代浏览器（PC/手机均可）
-- 适配直播壳及 JSON 直播接口、iptv-api 等直播采集项目
+- 适配：直播壳及 JSON 直播接口、iptv-api 等直播采集项目
 
 ### 2. 基础操作流程
 
